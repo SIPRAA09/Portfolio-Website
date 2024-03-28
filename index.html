@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <section id="home" class="section">
+        <div class="container">
+            <br><br>
+            <h2>Welcome to My Portfolio</h2><br><br>
+            <img src="img2.webp" alt="Profile Image" class="profile-img" width="200" height="200">
+            <br><br><br><br>
+            <h1>I AM SIPRAA YADAV</h1>
+            <h3>I am a passionate web developer ready to take on new challenges.</h3>
+            <p>I am currently pursuing Bachelors of Technology in Information Technology</p><br><br>
+            <div>
+                <a href="SipraaYadavv.pdf" class="btn download" download>DOWNLOAD CV</a>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="about" class="section">
+        <div class="container">
+            <br><br>
+            <h2>About Me</h2>
+            <p>Highly motivated and detail-oriented Software Engineer, renowned for maintaining a positive attitude and taking initiative in all tasks. Enthusiastic about learning and resourceful in problem-solving, with a strong track record in team leadership and building. Demonstrates creativity in tackling challenges and driven to assume leadership positions. Hardworking with a commitment to delivering exceptional results.</p>
+           <br><br>
+            <h3>Educational Background</h3>
+                <h4>Divine Educational Institute</h4>
+                <p>CBSE (Intermediate 12th)<br>
+                  Science (non-medical) 
+                  2009-2021</p>
+                  <h4>Banasthali Vidyapith</h4>
+                  <p>Bachelor of Technology (Information Technology)<br>
+                  2021-2025<br>
+                </p><br>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>JAVA</li>
+                <li>Python</li>
+                <li>DBMS</li>
+            </ul><br>
+            <h3>Soft Skills</h3>
+                <ul>
+                  <li>Leadership and Teamwork</li>
+                  <li>Decision Making</li>
+                  <li>Analytical Skills</li>
+                  <li>Effective Communication</li>
+                  <li>Adaptibility</li>
+                  <li>Problem Solving </li>
+                </ul><br><br>
+        </div>
+    </section>
+
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <br><br>
+            <h2>Portfolio</h2>
+            <div class="project">
+                <img src="Screenshot 2024-03-27 165618.png" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Welcome to Café Vistra, your destination for culinary bliss. Immerse yourself in the aroma of freshly brewed coffees and indulge in delectable dishes crafted with care. Explore our menu, discover our cozy ambiance, and experience the charm of Café Vistra. Let Café Vistra be your guide to a world of flavor and delight.
+
+                </p>
+                <a href="https://github.com/SIPRAA09/cafe-website">View Project</a>
+            </div>
+            <div class="project">
+                <img src="Screenshot 2024-03-27 170135.png" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>The University Management System aims to streamline the administrative processes of a university or educational institution by providing a centralized platform for managing various activities related to students, faculty, courses, and administrative tasks. The system will be developed using Java programming language and the NetBeans Integrated Development Environment (IDE).</p>
+                <a href="https://github.com/SIPRAA09/university-management-system">View Project</a>
+            </div>
+            <div class="project">
+                <img src="Screenshot 2024-03-28 135355.png" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>This project include some of my assignments that I have done in my lab</p>
+                <a href="https://github.com/SIPRAA09/projects">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="section">
+        <div class="container">
+            <br><br>
+            <h2>Contact</h2>
+            <h3>Contact me at my <a href="mailto:btbti21187_sipraa@banasthali.in">email</a> or fill the form below</h3>
+           <form action="/submit_form.php" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name.." required><br>
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email.." required><br>
+      
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
